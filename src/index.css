@@ -3,11 +3,39 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: grey;
+  display: flex;
+}
+
+.collapse {
+  width: 100%;
+}
+
+.navbar-item {
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.nav-item {
+  width: 100px;
+
+}
+.navbar-brand {
+  margin: 15px;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.nav-link {
+  text-decoration: none;
 }
